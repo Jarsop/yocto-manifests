@@ -15,6 +15,7 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
+  <project name="meta-42" path="sources/meta-42" />
   <project name="poky" revision="refs/heads/zeus" remote="yocto" path="sources/poky">
     <linkfile src="." dest="poky" />
   </project>
