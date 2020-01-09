@@ -18,7 +18,7 @@
   <project name="poky" revision="refs/heads/zeus" remote="yocto" path="sources/poky"/>
   <project name="meta-openembedded" revision="refs/heads/zeus" remote="oe" path="sources/meta-openembedded" />
   <project name="meta-qt5" revision="refs/heads/zeus" remote="qt5" path="sources/meta-qt5" />
-  <project name="meta-raspberrypi" revision="refs/heads/zeus" remote="yocto" path="source/meta-raspberrypi" />
+  <project name="meta-raspberrypi" revision="refs/heads/zeus" remote="yocto" path="sources/meta-raspberrypi" />
   <project name="meta-qt5-extra" revision="refs/heads/zeus" remote="qt5-extra" path="sources/meta-qt5-extra" />
 
 </manifest>
