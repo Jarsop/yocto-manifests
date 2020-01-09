@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default remote="jgeslin" revision="master"/>
+
+  <!-- You can have as many remote repositories as you like -->
+  <remote name="jgeslin" fetch="git://github.com/jgeslin42" />
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="oe" fetch="git://git.openembedded.org" />
+  <remote name="qt5" fetch="git://github.com/meta-qt5" />
+  <remote name="qt5-extra" fetch="git://github.com/schnitzeltony" />
+
+  <!-- List all the repositories you want to fetch -->
+  <!-- "name": git repository's name on hosting server
+       "remote": the remote host from above (if not the default)
+       "revision": commitish to checkout (if not the default)
+       "path": directory where git repository gets cloned/synced -->
+
+  <project name="poky" revision="refs/heads/zeus" remote="yocto" path="sources/poky"/>
+  <project name="meta-openembedded" revision="refs/heads/zeus" remote="oe" path="sources/meta-openembedded" />
+  <project name="meta-qt5" revision="refs/heads/zeus" remote="qt5" path="sources/meta-qt5" />
+  <project name="meta-raspberrypi" revision="refs/heads/zeus" remote="yocto" path="source/meta-raspberrypi" />
+  <project name="meta-qt5-extra" revision="refs/heads/zeus" remote="qt5-extra" path="sources/meta-qt5-extra" />
+
+</manifest>
